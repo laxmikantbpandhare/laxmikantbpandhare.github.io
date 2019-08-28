@@ -126,5 +126,16 @@ $(window).load(function() {
 		}
 	});
 
+	$('#clientSlider1').flexslider({
+		animation: "slide",
+		directionNav: false,
+		controlNav: true,
+		touch: true,
+		pauseOnHover: true,
+		start: function() {
+			$.waypoints('refresh');
+		}
+	});
+
 });
 

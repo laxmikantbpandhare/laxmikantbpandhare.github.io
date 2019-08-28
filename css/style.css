@@ -1068,10 +1068,20 @@ ul.slides li {
 #clientSlider .flex-control-nav {
 	text-align:left;
 }
+#clientSlider1 .flex-control-nav {
+	text-align:middle;
+}
 #clientSlider .flex-control-nav li:first-child {
 	margin:0px 4px 0px 0px;
 }
+#clientSlider1 .flex-control-nav li:first-child {
+	margin:0px 4px 0px 0px;
+}
 #clientSlider small {
+	font-size: 12px;
+	font-weight: bold;
+}
+#clientSlider1 small {
 	font-size: 12px;
 	font-weight: bold;
 }
