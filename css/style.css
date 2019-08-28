@@ -43,6 +43,7 @@ p {
 	word-spacing:1px;
 	line-height:25px;
 	font-size:14px;
+	margin:0;
 }
 h2 {
 	font-size:15px;
@@ -79,7 +80,7 @@ audio,canvas,video {
 	*display:inline;
 	*zoom: 1;
 }
-* Remove excess height in iOS 5 devices. */
+/* Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
 	display:none;
 	height:0;
@@ -238,7 +239,7 @@ legend {
 }
 button,input,select,textarea {
 	font-size:100%;
-	/margin:0;
+	margin:0;
 	vertical-align:baseline;
 	*vertical-align:middle;
 }
@@ -825,6 +826,15 @@ img.grayscale:hover {
 	margin-right:auto;
 	top: 50px;
 }
+
+
+.page {
+    position: relative;
+    height:100%;
+}
+
+
+
 /* ==========================================================================Subscribe========================================================================== */
 .subscribe {
 	padding-top:75px;
